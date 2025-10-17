@@ -1,4 +1,13 @@
+package Chapter9;
+
 public class Grade {
+    public static void main(String[] args) {
+        double mark1[]={10,9,70};
+        Grade g=new Grade("ahmed",20,mark1);
+        g.getinfo();
+        System.out.println(g.calavrg());
+        System.out.println(g.checkresul());
+    }
     String name;
     int age;
     double [] marks;

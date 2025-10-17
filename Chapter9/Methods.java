@@ -1,4 +1,12 @@
+package Chapter9;
+
 public class Methods {
+    public static void main(String[] args) {
+        Methods m=new Methods();
+        m.display();
+        int birthyear=m.birthyear(2025);
+        System.out.println("i was born in "+birthyear);
+    }
     String name;
     int age;
 //    Constructor without argument or default
